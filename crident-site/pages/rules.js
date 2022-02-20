@@ -34,5 +34,3 @@ function rules() {
   </div>
   </div>
 }
-
-export default rules
