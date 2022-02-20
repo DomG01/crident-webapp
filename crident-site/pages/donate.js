@@ -26,5 +26,3 @@ export default function donate() {
   </div>
   </div>
 }
-
-export default donate
