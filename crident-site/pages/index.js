@@ -24,12 +24,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="pages/donate.js" className={styles.card}>
+          <a href="donate.js" className={styles.card}>
             <h2>Donate &rarr;</h2>
             <p>Helps our server develop and keeps the coffee maker going!</p>
           </a>
 
-          <a href="pages/rules.js" className={styles.card}>
+          <a href="rules.js" className={styles.card}>
             <h2>Rules &rarr;</h2>
             <p>Learn and understand our community guidelines! It Helps Everyone!</p>
           </a>
@@ -39,7 +39,7 @@ export default function Home() {
         <p><code>Business End JSON / Usage: Embed Forms</code></p>
 
         <div className={styles.grid}>
-          <a href="pages/traffic.js" className={styles.card}>
+          <a href="traffic.js" className={styles.card}>
             <h2>tr4ffic-garage-form &rarr;</h2>
             <p>Order Form For TR4FFIC Garage</p>
               <br></br>
@@ -47,7 +47,7 @@ export default function Home() {
               <p>Visit Postal <code>{postal1}</code> Today!</p>
           </a>
 
-          <a href="pages/blackmarket.js" className={styles.card}>
+          <a href="blackmarket.js" className={styles.card}>
             <h2>blackmarket-orders &rarr;</h2>
             <p><code>
               Establishing Connection... DONE!
