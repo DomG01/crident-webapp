@@ -1,39 +1,8 @@
 import Head from 'next/head'
 //import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { ReactDOM , React} from 'react'
 
 const postal1 = 69
-
-const Progress = ({done}) => {
-	const [style, setStyle] = React.useState({});
-	
-	setTimeout(() => {
-		const newStyle = {
-			opacity: 1,
-			width: `${done}%`
-		}
-		
-		setStyle(newStyle);
-	}, 200);
-	
-	return (
-		<div className="progress">
-			<div className="progress-done" style={style}>
-				{done}%
-			</div>
-		</div>
-	)
-}
-
-const App = () => (
-	<>
-		<h1>React Progress Bar</h1>
-		<Progress done="70"/>
-	</>
-);
-	
-ReactDOM.render(<App />, document.getElementById('progressBar'));
 
 export default function Home() {
   return (
